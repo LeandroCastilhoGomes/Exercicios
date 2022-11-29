@@ -52,6 +52,8 @@ a:hover {
 .imagem{
     background-color: rgba(63, 63, 63, 0.576);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 
@@ -64,11 +66,28 @@ section {
     font-size: 3vw;
 }
 
-section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.486);
-    display: inline-block;
+section > p {
+    padding-bottom: 2em;
 }
 
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.402);
+    padding: 5px;
+    display: inline-block;
+    text-shadow: 2px 2px 0px black;
+}
+
+#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+
+}
 
 footer {
     background-color: black;
