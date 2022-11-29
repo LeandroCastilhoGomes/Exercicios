@@ -26,7 +26,7 @@ header {
 }
 h1{
     font-family: var(--fonte2);
-    font-size: 4em;
+    font-size: 10vw;
     font-variant: small-caps;
     text-align: center;
     padding-top: 50px;
@@ -61,11 +61,12 @@ section {
     padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    font-size: 3vw;
 }
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.486);
-    width: 400px;
+    display: inline-block;
 }
 
 
