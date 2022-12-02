@@ -1,75 +1,63 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 body{
-   background-color: rgb(180, 233, 189);
-}
-
-a{
-    color: black;
-    text-decoration:underline;
-}
-div > p {
-    display: none;
-    font-size: 20px;
-    color: rgb(197, 13, 13);
-    text-decoration: dashed;
-}
-div:hover > p {
-    display: block;
-    color: black;
-}
-div {   
-    display: inline-block;
-    width: 255px;
-    height: 450px;
-    margin: 10px;
-    
-}
-#especial{
-    display: inline-block;
-    width: 355px;
-    height: 100px;
-    text-decoration: underline;
-}
-
-h1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-family:'Rampart One', cursive;
+    margin: 0px;
    
 }
 
-#principal{
-    background-color: white;
-    text-align: center;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.285);
-    font-size: 50px;
-    font-family: 'Fredericka the Great', cursive; 
+header {
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.25), rgba(255, 255, 0, 0.25));
     padding: 10px;
-    margin: 0px;
+    width: 100vw;
 }
-h2{
-    text-align: center;
-    font-family: 'Rampart One', cursive;
-    color: rgb(2, 0, 139);
-    font-style: italic;
-}
-h3 {
-    text-align:center;
-    font-size: 1em;
-    font-family: 'Fredericka the Great', cursive;
-    
+main {
+    height: 80vh;
+    width: 100vw;
+
 }
 
-h4.especial {
-    font-size: 1em;
-    font-family: 'Fredericka the Great', cursive;
-    text-align: center;
-    color: rgb(58, 36, 48);
-    box-shadow: 1px 1px 1px rgba(0, 0, 255, 0.38);
-    margin: 0px;
-    width: 20px;
+div {
+    display: inline-table;
+    height: 500px;
+    width: 100vw;
     padding: 10px;
-    
+
+}
+
+#especial {
+    background-image: url(imagens/Manuscritos.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0px -20px 30px -20px ;
+    position: relative;
+}
+
+#especial > iframe {
+    position: absolute;
+    left: 45%;
+    top: 12%;
+    height: 70%;
+    width: 50%;
+
+}
+
+div p {
+    background-color: rgba(255, 255, 255, 0.401);
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.7em;
+    padding: 10px;
+    margin-top: 50px;
+    height: 37vh;
+    width: 40vw;
+    font-size: 1.4em;
+    font-variant: small-caps;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.269);
+    text-transform: capitalize ;
 }
