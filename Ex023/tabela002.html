@@ -13,6 +13,15 @@
         table {
             width: 40vw;
             border-collapse: collapse;
+            position: relative;
+        }
+
+
+        caption {
+            background-color: rgba(128, 128, 128, 0.447);
+            height: 30px;
+            padding-top: 10px;
+            font-variant: small-caps;
         }
 
         td, th {
@@ -25,6 +34,16 @@
             color: aliceblue;
         }
 
+        thead > tr> th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: rgb(183, 181, 181);
+        }
+
         .numero {
             text-align: right;
         }
@@ -33,9 +52,14 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>
+            População Das unidades Federativas
+        </caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -153,5 +177,53 @@
             <td class="numero"><strong>213.317.639</strong></td>
         </tfoot>
     </table>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga obcaecati maiores, ducimus labore distinctio iure facere natus blanditiis consectetur non ullam laborum ratione earum corrupti voluptatum doloremque accusamus aspernatur quidem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi qui asperiores quae fugit sint? Alias suscipit nihil aspernatur accusamus libero consequatur harum ipsam sint, ducimus molestias, quibusdam reiciendis totam nam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, quidem! Minima, odio, deserunt sit eos tempore debitis et temporibus explicabo blanditiis recusandae nihil commodi quisquam doloribus placeat? Libero, distinctio nam?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, possimus consectetur qui voluptatem itaque neque, nemo nam ipsum quod cum non fuga vel quaerat. Beatae perspiciatis esse quisquam. Nulla, odit?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo omnis asperiores, laboriosam eveniet earum sit eligendi hic neque molestias, ducimus voluptatem totam perferendis quia fugit obcaecati labore commodi mollitia nihil.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate delectus asperiores ducimus, ipsam sed numquam commodi perspiciatis ipsa dolores autem aut facilis, beatae nobis qui nemo sunt maxime dicta optio.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro cum voluptatibus eum illum dolorum eius quidem iusto facere? Ipsa at assumenda autem distinctio libero perferendis nihil! Itaque deleniti porro esse.
+        
+    </p>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga obcaecati maiores, ducimus labore distinctio iure facere natus blanditiis consectetur non ullam laborum ratione earum corrupti voluptatum doloremque accusamus aspernatur quidem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi qui asperiores quae fugit sint? Alias suscipit nihil aspernatur accusamus libero consequatur harum ipsam sint, ducimus molestias, quibusdam reiciendis totam nam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, quidem! Minima, odio, deserunt sit eos tempore debitis et temporibus explicabo blanditiis recusandae nihil commodi quisquam doloribus placeat? Libero, distinctio nam?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, possimus consectetur qui voluptatem itaque neque, nemo nam ipsum quod cum non fuga vel quaerat. Beatae perspiciatis esse quisquam. Nulla, odit?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo omnis asperiores, laboriosam eveniet earum sit eligendi hic neque molestias, ducimus voluptatem totam perferendis quia fugit obcaecati labore commodi mollitia nihil.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate delectus asperiores ducimus, ipsam sed numquam commodi perspiciatis ipsa dolores autem aut facilis, beatae nobis qui nemo sunt maxime dicta optio.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro cum voluptatibus eum illum dolorum eius quidem iusto facere? Ipsa at assumenda autem distinctio libero perferendis nihil! Itaque deleniti porro esse.
+        
+    </p>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga obcaecati maiores, ducimus labore distinctio iure facere natus blanditiis consectetur non ullam laborum ratione earum corrupti voluptatum doloremque accusamus aspernatur quidem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi qui asperiores quae fugit sint? Alias suscipit nihil aspernatur accusamus libero consequatur harum ipsam sint, ducimus molestias, quibusdam reiciendis totam nam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, quidem! Minima, odio, deserunt sit eos tempore debitis et temporibus explicabo blanditiis recusandae nihil commodi quisquam doloribus placeat? Libero, distinctio nam?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, possimus consectetur qui voluptatem itaque neque, nemo nam ipsum quod cum non fuga vel quaerat. Beatae perspiciatis esse quisquam. Nulla, odit?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo omnis asperiores, laboriosam eveniet earum sit eligendi hic neque molestias, ducimus voluptatem totam perferendis quia fugit obcaecati labore commodi mollitia nihil.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate delectus asperiores ducimus, ipsam sed numquam commodi perspiciatis ipsa dolores autem aut facilis, beatae nobis qui nemo sunt maxime dicta optio.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro cum voluptatibus eum illum dolorum eius quidem iusto facere? Ipsa at assumenda autem distinctio libero perferendis nihil! Itaque deleniti porro esse.
+        
+    </p> <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga obcaecati maiores, ducimus labore distinctio iure facere natus blanditiis consectetur non ullam laborum ratione earum corrupti voluptatum doloremque accusamus aspernatur quidem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi qui asperiores quae fugit sint? Alias suscipit nihil aspernatur accusamus libero consequatur harum ipsam sint, ducimus molestias, quibusdam reiciendis totam nam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, quidem! Minima, odio, deserunt sit eos tempore debitis et temporibus explicabo blanditiis recusandae nihil commodi quisquam doloribus placeat? Libero, distinctio nam?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, possimus consectetur qui voluptatem itaque neque, nemo nam ipsum quod cum non fuga vel quaerat. Beatae perspiciatis esse quisquam. Nulla, odit?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo omnis asperiores, laboriosam eveniet earum sit eligendi hic neque molestias, ducimus voluptatem totam perferendis quia fugit obcaecati labore commodi mollitia nihil.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate delectus asperiores ducimus, ipsam sed numquam commodi perspiciatis ipsa dolores autem aut facilis, beatae nobis qui nemo sunt maxime dicta optio.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro cum voluptatibus eum illum dolorum eius quidem iusto facere? Ipsa at assumenda autem distinctio libero perferendis nihil! Itaque deleniti porro esse.
+        
+    </p> <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga obcaecati maiores, ducimus labore distinctio iure facere natus blanditiis consectetur non ullam laborum ratione earum corrupti voluptatum doloremque accusamus aspernatur quidem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi qui asperiores quae fugit sint? Alias suscipit nihil aspernatur accusamus libero consequatur harum ipsam sint, ducimus molestias, quibusdam reiciendis totam nam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, quidem! Minima, odio, deserunt sit eos tempore debitis et temporibus explicabo blanditiis recusandae nihil commodi quisquam doloribus placeat? Libero, distinctio nam?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, possimus consectetur qui voluptatem itaque neque, nemo nam ipsum quod cum non fuga vel quaerat. Beatae perspiciatis esse quisquam. Nulla, odit?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo omnis asperiores, laboriosam eveniet earum sit eligendi hic neque molestias, ducimus voluptatem totam perferendis quia fugit obcaecati labore commodi mollitia nihil.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate delectus asperiores ducimus, ipsam sed numquam commodi perspiciatis ipsa dolores autem aut facilis, beatae nobis qui nemo sunt maxime dicta optio.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro cum voluptatibus eum illum dolorum eius quidem iusto facere? Ipsa at assumenda autem distinctio libero perferendis nihil! Itaque deleniti porro esse.
+        
+    </p>
 </body>
 </html>
