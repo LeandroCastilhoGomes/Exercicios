@@ -1,63 +1,90 @@
 @charset "UTF-8";
 
+
 body{
-    height: 100vh;
-    width: 100vw;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 0px;
-   
 }
 
 header {
-    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.25), rgba(255, 255, 0, 0.25));
-    padding: 10px;
-    width: 100vw;
+    background-image: linear-gradient(to top, #ff9100b3, rgba(6, 238, 255, 0.751));
+    padding: 40px;
 }
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 0px;
+    padding: 20px;
+}
+nav {
+    background-color: #ff9100b3;
+    padding: 10px;
+    text-align: left;
+}
+
+nav a {
+    color: rgba(0, 0, 0, 0.797);
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.6s;
+}
+
+nav a:hover {
+    background-color: rgba(0, 255, 255, 0.485);
+    color: rgb(2, 31, 249);
+}
+
 main {
-    height: 80vh;
-    width: 100vw;
-
+    background-color: aquamarine;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+main > h2 {
+    display: block;
+    max-width: 80%;
+    background-color: rgba(13, 189, 220, 0.401);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8em;
+    margin: auto;
+    padding: 5px;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.269);
+    text-transform: capitalize ;
 }
 
-div {
-    display: inline-table;
-    height: 500px;
-    width: 100vw;
-    padding: 10px;
-
-}
-
-#especial {
+div.video {
     background-image: url(imagens/Manuscritos.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     margin-top: 0px -20px 30px -20px ;
+    padding: 20px;
+    padding-bottom: 58%;
     position: relative;
 }
 
-#especial > iframe {
+div.video > iframe {
     position: absolute;
-    left: 45%;
-    top: 12%;
-    height: 70%;
-    width: 50%;
+    left: 5%;
+    top: 5%;
+    height: 90%;
+    width: 90%;
 
 }
 
-div p {
-    background-color: rgba(255, 255, 255, 0.401);
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 1.7em;
-    padding: 10px;
-    margin-top: 50px;
-    height: 37vh;
-    width: 40vw;
-    font-size: 1.4em;
-    font-variant: small-caps;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.269);
-    text-transform: capitalize ;
+
+footer {
+    background-color: black;
+    color: white;
 }
